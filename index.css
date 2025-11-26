@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("./font/source-sans-pro/SourceSansPro-Semibold.ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("./font/source-sans-pro/SourceSansPro-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h3 {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.main-container {
+  width: 375px;
+}
+
+.header-container {
+  position: fixed;
+  z-index: 100;
+  margin: 0 auto;
+  width: 375px;
+  display: flex;
+  padding-bottom: 16px;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid lightgray;
+}
+
+.posts-container {
+  position: relative;
+  top: 82;
+  z-index: 10;
+  background-color: whitesmoke;
+}
+
+.post {
+  margin-bottom: 24px;
+  background-color: white;
+}
+
+.logo {
+  width: 127px;
+  margin: 16px 0 0 16px;
+}
+
+.avatar {
+  width: 34px;
+  margin: 16px 16px 0 0;
+  border-radius: 50%;
+  border: 2px solid plum;
+}
+
+.author {
+  display: flex;
+  margin: 10px 10px;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.auth-avatar {
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.selfie {
+  width: 375px;
+}
+
+.icons {
+  display: flex;
+  margin: 12px 10px;
+}
+
+.icon {
+  width: 23px;
+  height: 23px;
+  padding: 0 8px;
+}
+
+.icon:hover,
+.icon:active {
+  opacity: 65%;
+}
+
+.post-details {
+  margin-left: 18px;
+  padding-bottom: 16px;
+}
+
+.comment {
+  font-weight: normal;
+  margin-left: 4px;
+}
